@@ -1,0 +1,5 @@
+soma = 0
+for i in range(5):
+    num = float(input("Insira um número:\n"))
+    soma = soma + num
+print("A soma dos números inseridos é: " + str(soma))

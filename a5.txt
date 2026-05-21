@@ -1,0 +1,8 @@
+print("Digite o salário:\n")
+salario = float(input())
+print("Digite o bônus (em porcentagem):\n")
+comissao = float(input())
+porcent = salario / 100
+bonus = porcent * comissao
+total = salario + bonus
+print("Valor total do salário: " + str(total))
